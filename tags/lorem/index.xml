@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>F.C. BigDecimal</title>
-    <link>http://blog.tackeyy.org/</link>
-    <description>Recent content on F.C. BigDecimal</description>
+    <title>Lorem on F.C. BigDecimal</title>
+    <link>http://blog.tackeyy.org/tags/lorem/</link>
+    <description>Recent content in Lorem on F.C. BigDecimal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
     <lastBuildDate>Mon, 09 May 2016 16:25:50 +0900</lastBuildDate>
-    <atom:link href="http://blog.tackeyy.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.tackeyy.org/tags/lorem/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>テスト</title>

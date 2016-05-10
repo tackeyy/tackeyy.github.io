@@ -35,14 +35,14 @@ article a,
 article a:visited,
 footer a,
 article a:visited {
-  color: #29abe2;
+  color: #9932CC;
 }
 header a:hover,
 article a:hover,
 main#index a:hover,
 main#list a:hover,
 nav a:hover {
-  color: #29abe2;
+  color: #9932CC;
 }
 main#index .meta a,
 main#list .meta a,
@@ -52,7 +52,7 @@ main#single .meta a {
 main#index .meta a:hover,
 main#list .meta a:hover,
 main#single .meta a:hover {
-  color: #29abe2;
+  color: #9932CC;
 }
 article a:hover,
 footer a:hover {
@@ -139,10 +139,10 @@ nav ul.pagination li {
   margin: 0 3px;
 }
 nav ul.pagination li.active {
-  border: 2px solid #29abe2;
+  border: 2px solid #9932CC;
 }
 nav ul.pagination li:hover {
-  border-color: #29abe2;
+  border-color: #9932CC;
 }
 nav.pagination-single {
   padding: 20px 0 20px 0;
@@ -159,7 +159,7 @@ nav.pagination-single span.next {
   max-width: 300px;
 }
 nav.pagination-single a {
-  color: #29abe2;
+  color: #9932CC;
 }
 #single aside {
   margin-top: 80px;
@@ -222,7 +222,7 @@ article #share-this {
   margin: 40px 0 40px 0;
 }
 .article-header {
-  border-left: 4px solid #29abe2;
+  border-left: 4px solid #9932CC;
   margin: 10px 0 25px -4px;
   padding: 5px 0 5px 10px;
 }
