@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    さくらVPS x wordpressからGitHub Pages x Hugoにした | F.C. BigDecimal
+    これ読んどけ.com | F.C. BigDecimal
   </title>
 
 
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.tackeyy.org/post/2016-05-12/wordpress-to-hugo/"/>
+  <link rel="canonical" href="http://blog.tackeyy.org/post/2016-05-13/koreyondoke-com/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -64,71 +64,90 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>さくらVPS x wordpressからGitHub Pages x Hugoにした</h1>
+      <h1>これ読んどけ.com</h1>
       <div class="meta">
-        May 12, 2016 &nbsp;
+        May 13, 2016 &nbsp;
         
-          #<a href="/tags/wordpress">Wordpress</a>&nbsp;
+          #<a href="/tags/%E3%82%A2%E3%82%A4%E3%83%87%E3%82%A3%E3%82%A2">アイディア</a>&nbsp;
         
-          #<a href="/tags/%E3%81%95%E3%81%8F%E3%82%89vps">さくらVPS</a>&nbsp;
-        
-          #<a href="/tags/github-pages">GitHub Pages</a>&nbsp;
-        
-          #<a href="/tags/hugo">Hugo</a>&nbsp;
+          #<a href="/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9">Webサービス</a>&nbsp;
         
       </div>
     </div>
     <article>
       
 
-<p>さくらVPS x Wordpressにして2週間くらいしか経っていませんが、<br>
-GitHub Pages x Hugoにしました。</p>
+<p>思いついたアイディアをメモ。<br>
+スケールはしなさそうだけど、個人的にあったら使うかも。<br></p>
 
-<h3 id="wordpressからhugoにした理由:a0c9f57518c6e4f368a305eaadf860c2">WordpressからHugoにした理由</h3>
+<h3 id="これ読んどけ-com:f8cc896cfad8a326c7cd83a5657abd64">これ読んどけ.com</h3>
 
 <ul>
-<li>MarkDownを使いづらいから</li>
+<li>概要
+
+<ul>
+<li>ある人のお勧め書籍一覧で見れるSNSライクなイメージ
+
+<ul>
+<li>e.g
+
+<ul>
+<li>営業でお勧めの本リスト</li>
+<li>railsのお勧めの本リスト</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>ユーザー
+
+<ul>
+<li>先輩
+
+<ul>
+<li>ある分野のお勧めの本（これ読んどけ）を追加する</li>
+</ul></li>
+<li>後輩
+
+<ul>
+<li>先輩が作った「これ読んどけリスト」を閲覧、コメントなど
+
+<ul>
+<li>後輩はある分野の未経験者、初心者（新社会人、新米エンジニアなど）などを想定</li>
+</ul></li>
+</ul></li>
+<li>解決する問題
+
+<ul>
+<li>先輩
+
+<ul>
+<li>「〇〇について勉強したいのですが、何読めばいいですか」って聞かれていちいち回答する時間が面倒</li>
+</ul></li>
+<li>後輩
+
+<ul>
+<li>ある分野で著名な本を知る手段が少ない
+
+<ul>
+<li>ビジネスならプレジデントの書籍リストを見る</li>
+<li>人に聞く</li>
+</ul></li>
+<li>教えてもらった書籍のタイトルをメモるのだるい</li>
+</ul></li>
+</ul></li>
+<li>解決策
+
+<ul>
+<li>ネット上にある人のお勧め本一覧を作ってもらい、そのURLを後輩にシェアする
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ちゃんちゃん。</li>
+</ul></li>
+</ul></li>
 </ul>
-
-<p>巷では、デプロイが早い！などがWordpressや<br>
-Hugo以外の静的ページジェネレーターからHugoに移行する動機みたいなのですが、<br>
-ぼくの場合は、上記の一点がWordpressをやめてHugoにした理由です。<br>
-Hugoにしたのは、流行りそうだから&hellip;<br></p>
-
-<p><a href="https://www.staticgen.com/">静的ページジェネレーター</a>がまとまっているサイト。</p>
-
-<p>業務システムのエンジニアだった頃は秀丸さんで*.txtメインだったので、<br>
-そもそもMarkDownで書く習慣がありませんでしたが、<br>
-ウェブの会社に就職してから、以下のようなツールを使うようになったので、<br>
-MarkDownで自然と文書を書くようになりました。<br>
-* <a href="https://esa.io/">esa</a><br>
-* GitHub<br>
-* Qiita<br>
-MarkDownで文章を書き出すと、ブログもMarkDownで書きたいと思うようになり、
-Wordpressのプラグインを入れてみたのですが、まー書きにくい。<br>
-というわけで、Wordpressを2週かんくらいでやめました.</p>
-
-<h3 id="hugo:a0c9f57518c6e4f368a305eaadf860c2">Hugo?</h3>
-
-<p>静的なページをMarkDownで簡単につくれます、っていうサービスです。<br>
-チュートリアルをやってみましたが、簡単でした。<br>
-<a href="http://qiita.com/tackeyy/items/d0b6a66572cc3563e0c0">チュートリアルのやり方をまとめてみた。</a></p>
-
-<p>ブログを作るにあたっては、<a href="http://tanksuzuki.com/post/hugo-github-pages-1/">ここ</a>を参考にさせてもらいました。<br>
-ちなみにテーマも上のリンクの方が作ったものを使わせてもらってます。</p>
-
-<h3 id="wordpressの記事を移行しなきゃ:a0c9f57518c6e4f368a305eaadf860c2">Wordpressの記事を移行しなきゃ&hellip;</h3>
-
-<p>5記事くらいしかないのですが、せっかく書いたし、Hugoに移行しなきゃと思って1週間くらいたちました。<br>
-Wordpressの<a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">プラグイン</a>もあるみたいですが、<br>
-内容も微妙だし、書き直してもいいかなと思ってます。
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-ちゃんちゃん。</p>
 
       
       
@@ -153,8 +172,8 @@ Wordpressの<a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter"
   
   <nav class="pagination-single">
     
+      <span class="previous">&larr; <a href="http://blog.tackeyy.org/post/2016-05-12/wordpress-to-hugo/" rel="prev">さくらVPS x wordpressからGitHub Pages x Hugoにした</a></span>
     
-      <span class="next"><a href="http://blog.tackeyy.org/post/2016-05-13/koreyondoke-com/" rel="next">これ読んどけ.com</a> &rarr;</span>
     
   </nav>
 
