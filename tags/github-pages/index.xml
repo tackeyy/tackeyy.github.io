@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on F.C. BigDecimal</title>
-    <link>http://blog.tackeyy.org/post/</link>
-    <description>Recent content in Posts on F.C. BigDecimal</description>
+    <title>Github Pages on F.C. BigDecimal</title>
+    <link>http://blog.tackeyy.org/tags/github-pages/</link>
+    <description>Recent content in Github Pages on F.C. BigDecimal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
     <lastBuildDate>Thu, 12 May 2016 00:12:03 +0900</lastBuildDate>
-    <atom:link href="http://blog.tackeyy.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.tackeyy.org/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>さくらVPS x wordpressからGitHub Pages x Hugoにした</title>
