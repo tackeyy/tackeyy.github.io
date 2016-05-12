@@ -6,8 +6,72 @@
     <description>Recent content in Posts on F.C. BigDecimal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Fri, 13 May 2016 01:19:12 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 May 2016 01:41:17 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>uiflowを使ってみる</title>
+      <link>http://blog.tackeyy.org/post/2016-05-13/how-%202-use-uiflow/</link>
+      <pubDate>Fri, 13 May 2016 01:41:17 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016-05-13/how-%202-use-uiflow/</guid>
+      <description>
+
+&lt;p&gt;勉強も兼ねて&lt;a href=&#34;http://blog.tackeyy.org/post/2016-05-13/koreyondoke-com/&#34;&gt;この前書いたアイディア&lt;/a&gt;を作ってみようかなと思ってます。&lt;br&gt;
+まずはサイトマップを書こうと思い、前々から気になったツールを使ってみました。&lt;/p&gt;
+
+&lt;h3 id=&#34;uiflow:0bf94d7be72a5e82c913b1cdb598da40&#34;&gt;uiflow?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/hirokidaichi/items/ff54a968bdd7bcc50d42&#34;&gt;もう保守されない画面遷移図は嫌なので、UI Flow図を簡単にマークダウンぽく書くエディタ作った&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;インストール:0bf94d7be72a5e82c913b1cdb598da40&#34;&gt;インストール&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;インストール方法
+グラフの生成にはGraphvizを用います。&lt;br&gt;
+brewなどを通じてinstallしておいてください。&lt;br&gt;
+&lt;code&gt;brew install graphviz&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;npm install -g uiflow&lt;/code&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;@see &lt;a href=&#34;https://github.com/hirokidaichi/uiflow&#34;&gt;https://github.com/hirokidaichi/uiflow&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;インストール方法がREADMEに書いた理由は、npmをインストールしておらず、少しハマったからです。&lt;br&gt;
+npmはnodeに内包されているので、以下の通りにすれば上記の&lt;code&gt;npm install ~&lt;/code&gt;をたたけるようになります。&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;node / npm をインストールする&lt;br&gt;
+&lt;code&gt;brew install node&lt;/code&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;インストールできたかどうかは、以下で確認しました。&lt;br&gt;
+&lt;code&gt;npm --version&lt;/code&gt;&lt;br&gt;
+&amp;gt; 3.8.6&lt;/p&gt;
+
+&lt;h3 id=&#34;使い方:0bf94d7be72a5e82c913b1cdb598da40&#34;&gt;使い方&lt;/h3&gt;
+
+&lt;p&gt;もうインストールできたら使い方は迷いません。&lt;br&gt;
+ディレクトリはお好きにどうぞ。&lt;br&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;mkdir content&lt;/code&gt;(uiflow直下）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;vim koreyome-com.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;何か書く&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;uiflow -i koreyome-com.txt -o koreyome.png -f png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;uiflow直下にkoreyome.pngができる&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gyazo.com/5bedd4090b3d3b74b88d589ad9472f0a&#34;&gt;こんな感じ&lt;/a&gt;になります。(READMEの説明をコピーしました。）&lt;br&gt;
+もう夜遅いから明日フロー書きます。&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+ちゃんちゃん。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>これ読んどけ.com</title>
@@ -20,7 +84,7 @@
 &lt;p&gt;思いついたアイディアをメモ。&lt;br&gt;
 スケールはしなさそうだけど、個人的にあったら使うかも。&lt;br&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;これ読んどけ-com:f8cc896cfad8a326c7cd83a5657abd64&#34;&gt;これ読んどけ.com&lt;/h3&gt;
+&lt;h3 id=&#34;これ読んどけ-com:00e62d1205ac1d61d9deb46c87a2d537&#34;&gt;これ読んどけ.com&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;概要
@@ -102,7 +166,7 @@
 &lt;p&gt;さくらVPS x Wordpressにして2週間くらいしか経っていませんが、&lt;br&gt;
 GitHub Pages x Hugoにしました。&lt;/p&gt;
 
-&lt;h3 id=&#34;wordpressからhugoにした理由:a0c9f57518c6e4f368a305eaadf860c2&#34;&gt;WordpressからHugoにした理由&lt;/h3&gt;
+&lt;h3 id=&#34;wordpressからhugoにした理由:5dcfe66a97bc9e9932b94094ce104578&#34;&gt;WordpressからHugoにした理由&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;MarkDownを使いづらいから&lt;/li&gt;
@@ -126,7 +190,7 @@ MarkDownで文章を書き出すと、ブログもMarkDownで書きたいと思�
 Wordpressのプラグインを入れてみたのですが、まー書きにくい。&lt;br&gt;
 というわけで、Wordpressを2週かんくらいでやめました.&lt;/p&gt;
 
-&lt;h3 id=&#34;hugo:a0c9f57518c6e4f368a305eaadf860c2&#34;&gt;Hugo?&lt;/h3&gt;
+&lt;h3 id=&#34;hugo:5dcfe66a97bc9e9932b94094ce104578&#34;&gt;Hugo?&lt;/h3&gt;
 
 &lt;p&gt;静的なページをMarkDownで簡単につくれます、っていうサービスです。&lt;br&gt;
 チュートリアルをやってみましたが、簡単でした。&lt;br&gt;
@@ -135,7 +199,7 @@ Wordpressのプラグインを入れてみたのですが、まー書きにく�
 &lt;p&gt;ブログを作るにあたっては、&lt;a href=&#34;http://tanksuzuki.com/post/hugo-github-pages-1/&#34;&gt;ここ&lt;/a&gt;を参考にさせてもらいました。&lt;br&gt;
 ちなみにテーマも上のリンクの方が作ったものを使わせてもらってます。&lt;/p&gt;
 
-&lt;h3 id=&#34;wordpressの記事を移行しなきゃ:a0c9f57518c6e4f368a305eaadf860c2&#34;&gt;Wordpressの記事を移行しなきゃ&amp;hellip;&lt;/h3&gt;
+&lt;h3 id=&#34;wordpressの記事を移行しなきゃ:5dcfe66a97bc9e9932b94094ce104578&#34;&gt;Wordpressの記事を移行しなきゃ&amp;hellip;&lt;/h3&gt;
 
 &lt;p&gt;5記事くらいしかないのですが、せっかく書いたし、Hugoに移行しなきゃと思って1週間くらいたちました。&lt;br&gt;
 Wordpressの&lt;a href=&#34;https://github.com/SchumacherFM/wordpress-to-hugo-exporter&#34;&gt;プラグイン&lt;/a&gt;もあるみたいですが、&lt;br&gt;
