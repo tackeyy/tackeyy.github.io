@@ -6,21 +6,21 @@
     <description>Recent content in さくらvps on F.C. BigDecimal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Thu, 12 May 2016 00:12:03 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 08 May 2016 00:12:03 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/tags/%E3%81%95%E3%81%8F%E3%82%89vps/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>さくらVPS x wordpressからGitHub Pages x Hugoにした</title>
-      <link>http://blog.tackeyy.org/post/2016-05-12/wordpress-to-hugo/</link>
-      <pubDate>Thu, 12 May 2016 00:12:03 +0900</pubDate>
+      <link>http://blog.tackeyy.org/post/2016-05-08/wordpress-to-hugo/</link>
+      <pubDate>Sun, 08 May 2016 00:12:03 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-05-12/wordpress-to-hugo/</guid>
+      <guid>http://blog.tackeyy.org/post/2016-05-08/wordpress-to-hugo/</guid>
       <description>
 
 &lt;p&gt;さくらVPS x Wordpressにして2週間くらいしか経っていませんが、&lt;br&gt;
 GitHub Pages x Hugoにしました。&lt;/p&gt;
 
-&lt;h3 id=&#34;wordpressからhugoにした理由:5dcfe66a97bc9e9932b94094ce104578&#34;&gt;WordpressからHugoにした理由&lt;/h3&gt;
+&lt;h3 id=&#34;wordpressからhugoにした理由:66e96a2519e9c9397f39ad64aba97c83&#34;&gt;WordpressからHugoにした理由&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;MarkDownを使いづらいから&lt;/li&gt;
@@ -44,7 +44,7 @@ MarkDownで文章を書き出すと、ブログもMarkDownで書きたいと思�
 Wordpressのプラグインを入れてみたのですが、まー書きにくい。&lt;br&gt;
 というわけで、Wordpressを2週間くらいでやめました.&lt;/p&gt;
 
-&lt;h3 id=&#34;hugo:5dcfe66a97bc9e9932b94094ce104578&#34;&gt;Hugo?&lt;/h3&gt;
+&lt;h3 id=&#34;hugo:66e96a2519e9c9397f39ad64aba97c83&#34;&gt;Hugo?&lt;/h3&gt;
 
 &lt;p&gt;静的なページをMarkDownで簡単につくれます、っていうサービスです。&lt;br&gt;
 チュートリアルをやってみましたが、簡単でした。&lt;br&gt;
@@ -53,7 +53,7 @@ Wordpressのプラグインを入れてみたのですが、まー書きにく�
 &lt;p&gt;ブログを作るにあたっては、&lt;a href=&#34;http://tanksuzuki.com/post/hugo-github-pages-1/&#34;&gt;ここ&lt;/a&gt;を参考にさせてもらいました。&lt;br&gt;
 ちなみにテーマも上のリンクの方が作ったものを使わせてもらってます。&lt;/p&gt;
 
-&lt;h3 id=&#34;wordpressの記事を移行しなきゃ:5dcfe66a97bc9e9932b94094ce104578&#34;&gt;Wordpressの記事を移行しなきゃ&amp;hellip;&lt;/h3&gt;
+&lt;h3 id=&#34;wordpressの記事を移行しなきゃ:66e96a2519e9c9397f39ad64aba97c83&#34;&gt;Wordpressの記事を移行しなきゃ&amp;hellip;&lt;/h3&gt;
 
 &lt;p&gt;5記事くらいしかないのですが、せっかく書いたし、Hugoに移行しなきゃと思って1週間くらいたちました。&lt;br&gt;
 Wordpressの&lt;a href=&#34;https://github.com/SchumacherFM/wordpress-to-hugo-exporter&#34;&gt;プラグイン&lt;/a&gt;もあるみたいですが、&lt;br&gt;

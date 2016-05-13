@@ -6,24 +6,59 @@
     <description>Recent content in Posts on F.C. BigDecimal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Fri, 13 May 2016 11:17:05 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 May 2016 12:02:49 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>SideCIの実行結果をSlackに通知してみる</title>
-      <link>http://blog.tackeyy.org/post/2016-05-13/mailto%20slack%20from%20sideci/</link>
-      <pubDate>Fri, 13 May 2016 11:17:05 +0900</pubDate>
+      <title>CircleCIの実行結果をSlackに通知してみる</title>
+      <link>http://blog.tackeyy.org/post/2016-05-13/mailto-slak-from-circleci/</link>
+      <pubDate>Fri, 13 May 2016 12:02:49 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-05-13/mailto%20slack%20from%20sideci/</guid>
+      <guid>http://blog.tackeyy.org/post/2016-05-13/mailto-slak-from-circleci/</guid>
       <description>
 
-&lt;h3 id=&#34;sideci:d4fd0ae8721e64088049829f66bc1e5e&#34;&gt;SideCI?&lt;/h3&gt;
+&lt;h3 id=&#34;circleci:0441d625c69143e04d8951a038f82223&#34;&gt;CircleCI?&lt;/h3&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;SideCIはGitHubと連携し、自動的に解析ツールを利用したコードレビューを行うサービスです。&lt;br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E7%B6%99%E7%B6%9A%E7%9A%84%E3%82%A4%E3%83%B3%E3%83%86%E3%82%B0%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&#34;&gt;継続的インテグレーション&lt;/a&gt;のプラットフォームです。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.sideci.com/ja/docs/getting-started&#34;&gt;Getting started with SideCI&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://circleci.com/&#34;&gt;https://circleci.com/&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;前はJenkins(Hudson)を使っていたので、Jenkins的なやつと理解しています。&lt;br&gt;
+特にWeb系は流行り廃りがあるのであれですが、JenknsからCircleCIに移行する流れもあるっぽい？です。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.stormcat.io/entry/2015/07/02/150000&#34;&gt;Jenkinsと完全にサヨナラして、CircleCIに移行した話&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;slackとの連携:0441d625c69143e04d8951a038f82223&#34;&gt;Slackとの連携&lt;/h3&gt;
+
+&lt;p&gt;概要は&lt;a href=&#34;https://circleci.com/blog/slack-integration/&#34;&gt;こちら&lt;/a&gt;でおおよそ把握できます。&lt;br&gt;
+ぼくが唯一ハマったのは、chat notificationの設定箇所が見つけられなかったところだけです。（10分くらい探しました。。）&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SlackでCircleCIと連携する設定&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Channelの(左上)[&lt;a href=&#34;https://gyazo.com/304cd41890db875b1e121a6eace1ab0d]からApps&#34;&gt;https://gyazo.com/304cd41890db875b1e121a6eace1ab0d]からApps&lt;/a&gt; &amp;amp; integrationsを選択します。&lt;br&gt;
+画面遷移後にCircle CIを検索して、notificationを送信したい&lt;a href=&#34;https://gyazo.com/77053b3ed12ab7179a484227ca08d06f&#34;&gt;チームを選択&lt;/a&gt;します。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;*すでに設定しているので上の画像では、configureになっています&lt;br&gt;
+*team選択後にchannelを選択できます&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;ここからはSlack上に説明があるので、それに沿ってCircleCI側の設定をしてください。&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CircleCI側の設定&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;最初の&lt;a href=&#34;https://circleci.com/blog/slack-integration/&#34;&gt;リンク&lt;/a&gt;の通りです。&lt;br&gt;
+設定箇所へたどり着くには、&lt;a href=&#34;https://gyazo.com/324c92ff27b547843291c71c1086c1e2&#34;&gt;ここ&lt;/a&gt;の歯車をクリック後に&lt;br&gt;
+ダッシュボードの中央左のChat NotificationsからSlackで説明されていた設定（URL貼るだけですが）を行います。&lt;br&gt;
+記載してありますが、Fixed/Failed Onlyにチェックを入れると、ビルド失敗/修正だけがNotificationのトリガーになります。&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+ちゃんちゃん。&lt;/p&gt;
 </description>
     </item>
     
@@ -177,16 +212,16 @@ npmはnodeに内包されているので、以下の通りにすれば上記の&
     
     <item>
       <title>さくらVPS x wordpressからGitHub Pages x Hugoにした</title>
-      <link>http://blog.tackeyy.org/post/2016-05-12/wordpress-to-hugo/</link>
-      <pubDate>Thu, 12 May 2016 00:12:03 +0900</pubDate>
+      <link>http://blog.tackeyy.org/post/2016-05-08/wordpress-to-hugo/</link>
+      <pubDate>Sun, 08 May 2016 00:12:03 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-05-12/wordpress-to-hugo/</guid>
+      <guid>http://blog.tackeyy.org/post/2016-05-08/wordpress-to-hugo/</guid>
       <description>
 
 &lt;p&gt;さくらVPS x Wordpressにして2週間くらいしか経っていませんが、&lt;br&gt;
 GitHub Pages x Hugoにしました。&lt;/p&gt;
 
-&lt;h3 id=&#34;wordpressからhugoにした理由:5dcfe66a97bc9e9932b94094ce104578&#34;&gt;WordpressからHugoにした理由&lt;/h3&gt;
+&lt;h3 id=&#34;wordpressからhugoにした理由:66e96a2519e9c9397f39ad64aba97c83&#34;&gt;WordpressからHugoにした理由&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;MarkDownを使いづらいから&lt;/li&gt;
@@ -210,7 +245,7 @@ MarkDownで文章を書き出すと、ブログもMarkDownで書きたいと思�
 Wordpressのプラグインを入れてみたのですが、まー書きにくい。&lt;br&gt;
 というわけで、Wordpressを2週間くらいでやめました.&lt;/p&gt;
 
-&lt;h3 id=&#34;hugo:5dcfe66a97bc9e9932b94094ce104578&#34;&gt;Hugo?&lt;/h3&gt;
+&lt;h3 id=&#34;hugo:66e96a2519e9c9397f39ad64aba97c83&#34;&gt;Hugo?&lt;/h3&gt;
 
 &lt;p&gt;静的なページをMarkDownで簡単につくれます、っていうサービスです。&lt;br&gt;
 チュートリアルをやってみましたが、簡単でした。&lt;br&gt;
@@ -219,7 +254,7 @@ Wordpressのプラグインを入れてみたのですが、まー書きにく�
 &lt;p&gt;ブログを作るにあたっては、&lt;a href=&#34;http://tanksuzuki.com/post/hugo-github-pages-1/&#34;&gt;ここ&lt;/a&gt;を参考にさせてもらいました。&lt;br&gt;
 ちなみにテーマも上のリンクの方が作ったものを使わせてもらってます。&lt;/p&gt;
 
-&lt;h3 id=&#34;wordpressの記事を移行しなきゃ:5dcfe66a97bc9e9932b94094ce104578&#34;&gt;Wordpressの記事を移行しなきゃ&amp;hellip;&lt;/h3&gt;
+&lt;h3 id=&#34;wordpressの記事を移行しなきゃ:66e96a2519e9c9397f39ad64aba97c83&#34;&gt;Wordpressの記事を移行しなきゃ&amp;hellip;&lt;/h3&gt;
 
 &lt;p&gt;5記事くらいしかないのですが、せっかく書いたし、Hugoに移行しなきゃと思って1週間くらいたちました。&lt;br&gt;
 Wordpressの&lt;a href=&#34;https://github.com/SchumacherFM/wordpress-to-hugo-exporter&#34;&gt;プラグイン&lt;/a&gt;もあるみたいですが、&lt;br&gt;
