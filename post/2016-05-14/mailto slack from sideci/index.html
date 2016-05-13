@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+
+  
+  <meta charset="UTF-8">
+  <title>
+    SideCIの実行結果をSlackに通知してみる | F.C. BigDecimal
+  </title>
+
+
+  
+  <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.tackeyy.org/post/2016-05-14/mailto%20slack%20from%20sideci/"/>
+
+  
+  <link rel="stylesheet" href="/css/sanitize.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/highlight_monokai.css">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  
+  
+  <link href="http://blog.tackeyy.org/index.xml" rel="alternate" type="application/rss+xml" title="F.C. BigDecimal" />
+  <link href="http://blog.tackeyy.org/index.xml" rel="feed" type="application/rss+xml" title="F.C. BigDecimal" />
+
+  
+  
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: '35ad5203-7b04-4e6a-930a-5ee18090622a', doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
+  
+
+
+</head>
+
+
+
+<body>
+<div class="container">
+
+  
+  <header role="banner">
+    <div class="row gutters">
+      <div id="site-title" class="col span_6">
+        <h1><a href="http://blog.tackeyy.org/">F.C. BigDecimal</a></h1>
+        <h2>読んだ本のメモやWebまわりのはなし</h2>
+      </div>
+      <div id="social" class="col span_6">
+        <ul>
+          <li><a href="https://twitter.com/3chhe" target="_blank">Twitter</a></li>
+          
+          <li><a href="https://github.com/tackeyy" target="_blank">GitHub</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  
+  <main id="single" role="main">
+    <div class="article-header">
+      <h1>SideCIの実行結果をSlackに通知してみる</h1>
+      <div class="meta">
+        May 14, 2016 &nbsp;
+        
+          #<a href="/tags/slack">Slack</a>&nbsp;
+        
+          #<a href="/tags/sideci">SideCI</a>&nbsp;
+        
+      </div>
+    </div>
+    <article>
+      
+
+<h3 id="sideci:d4fd0ae8721e64088049829f66bc1e5e">SideCI?</h3>
+
+<blockquote>
+<p>SideCIはGitHubと連携し、自動的に解析ツールを利用したコードレビューを行うサービスです。<br></p>
+</blockquote>
+
+<p><a href="https://www.sideci.com/ja/docs/getting-started">Getting started with SideCI</a><br></p>
+
+<h3 id="sideciはslack連携できない:d4fd0ae8721e64088049829f66bc1e5e">SideCIはSlack連携できない？</h3>
+
+<p>SlackのアプリでSideCIがでてこない（GitHubやCircleCIなどは出る）ので、<br>
+未対応なのかなと思いSideCIの中の人に問い合わせてみました。<br></p>
+
+<blockquote>
+<p>申し訳ありませんが現在はSlackなどを含めた外部ツールへの通知はサポートしておりません。。
+間接的にではありますが、 <code>GitHubに対してのPR/コメント通知をSlack連携</code> することにより、SideCI経由でのコメントの付記のタイミングはSlackで受け取ることは可能です。</p>
+</blockquote>
+
+<p>と回答をいただきました。<br></p>
+
+<p>余談ですが、問い合わせがチャットなので問い合わせ時の心理的な障壁もあまりなく問い合わせができました。<br>
+（チャットの問い合わせ流行りそう。）<br>
+また、レスポンスも早くとても好印象でした。<br></p>
+
+<h3 id="slackとgithubの連携:d4fd0ae8721e64088049829f66bc1e5e">SlackとGitHubの連携</h3>
+
+<ol>
+<li>SlackのApp Directoryに行きます（Slack左上のチームからApps &amp; integrationsを選択）</li>
+<li>真ん中の検索窓にGitHubと入力して、GitHubをインストールします（もちろんインストール済みの場合は必要ありません）</li>
+<li>App DirectoryのGitHubのアプリに移動すると&rdquo;チーム名 configure&rdquo;があるので、configureを選択します</li>
+<li><a href="https://gyazo.com/7b66e42aabe7bfc86e27651ca4e44d0b">Add Configuration</a>をクリックします</li>
+<li>ここまでくれば、説明にそってRepositories, Events, Channelを設定すればOKです（今回はSideCIでpull requestにコメントが付けられた時をトリガーにしたいので、&rdquo;New comment on issue or pull request&rdquo;にチェックをつけます）</li>
+</ol>
+
+<h3 id="よもやま話:d4fd0ae8721e64088049829f66bc1e5e">よもやま話</h3>
+
+<p>&ldquo;New comment on issue or pull request&rdquo;にチェックをつけたのに、<br>
+なぜか&rdquo;Nothing is configured&rdquo;が表示されてSlackに通知が飛びませんでした。<br>
+<br>
+Slackに問い合わせみたところ<a href="https://gyazo.com/bb6183e3da2c1f76d86ebfb355f5b5db">すぐ返信きた</a>。<br>
+（金曜日だったので、時差を考慮してもどーせ来週前半に回答くれるんでしょと思ってた&hellip;）<br></p>
+
+<p>やっぱりレスが早いと気持ちユーザー体験ができるんだなと思いました。<br>
+今回に関してはこちらの期待が低かったこともありますけどね。<br></p>
+
+<p><br>
+<br>
+<br>
+<br>
+<br></p>
+
+<p>ちゃんちゃん。</p>
+
+      
+      
+      
+        <div id="share-this" class="col span_10">
+          <span class='st_twitter_large' displayText='Tweet'></span>
+          <span class='st_facebook_large' displayText='Facebook'></span>
+          <span class='st_googleplus_large' displayText='Google +'></span>
+          <span class='st_pocket_large' displayText='Pocket'></span>
+          <span class='st_sharethis_large' displayText='ShareThis'></span>
+          <span class='st_email_large' displayText='Email'></span>  
+        </div>
+      
+    </article>
+    
+ <aside><div id="disqus_thread"></div></aside>
+
+<script type="text/javascript">
+     
+    var disqus_shortname = '
+  </main>
+  
+  <nav class="pagination-single">
+    
+      <span class="previous">&larr; <a href="http://blog.tackeyy.org/post/2016-05-13/mailto-slak-from-circleci/" rel="prev">CircleCIの実行結果をSlackに通知してみる</a></span>
+    
+    
+  </nav>
+
+
+  
+  <footer role="contentinfo">
+    <div style="text-align:center;">
+      <img src="/images/profile.png" width="64" height="64"><br>
+      
+    </div>
+  </footer>
+
+
+</div>
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-77183052-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+
