@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slack on F.C. BigDecimal</title>
+    <link>http://blog.tackeyy.org/tags/slack/</link>
+    <description>Recent content in Slack on F.C. BigDecimal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Fri, 13 May 2016 11:17:05 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/slack/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SideCIの実行結果をSlackに通知してみる</title>
+      <link>http://blog.tackeyy.org/post/2016-05-13/mailto%20slack%20from%20sideci/</link>
+      <pubDate>Fri, 13 May 2016 11:17:05 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016-05-13/mailto%20slack%20from%20sideci/</guid>
+      <description>
+
+&lt;h3 id=&#34;sideci:d4fd0ae8721e64088049829f66bc1e5e&#34;&gt;SideCI?&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;SideCIはGitHubと連携し、自動的に解析ツールを利用したコードレビューを行うサービスです。&lt;br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.sideci.com/ja/docs/getting-started&#34;&gt;Getting started with SideCI&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
