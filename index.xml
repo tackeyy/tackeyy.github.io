@@ -6,8 +6,72 @@
     <description>Recent content on F.C. BigDecimal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sat, 14 May 2016 11:17:05 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 15 May 2016 18:11:00 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>sorceryのREADMEを読んでみた</title>
+      <link>http://blog.tackeyy.org/post/2016-05-15/sorcery/</link>
+      <pubDate>Sun, 15 May 2016 18:11:00 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016-05-15/sorcery/</guid>
+      <description>
+
+&lt;p&gt;sorceryは僕が携わっているプロジェクトで使用されていたりする身近な存在ではあったのですが、&lt;br&gt;
+プロジェクト開始時にPMの方が最初にひな形を作ってくださるので（認証周りも含めて）、sorceryは直接的に触ったことはありませんでした。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;有名なGemなので色々なブログで導入手順などはまとまってたりするのですが、そもそもsorceryって？というところを把握したくて&lt;a href=&#34;https://github.com/NoamB/sorcery&#34;&gt;README&lt;/a&gt;を読んでみることにしました。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;sorcery:3c4eb0da7fb97422d24a60b33c2c0df9&#34;&gt;sorcery&lt;/h3&gt;
+
+&lt;p&gt;rails3,4 の魔法の認証機能を提供するgem。&lt;/p&gt;
+
+&lt;h3 id=&#34;philosophy:3c4eb0da7fb97422d24a60b33c2c0df9&#34;&gt;philosophy&lt;/h3&gt;
+
+&lt;p&gt;自分自身の認証フローにおける重要で最小限の認証の機構。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;以下の単語は知らなかった。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;stripped-down&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;bare-bones&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>これよめ.com 〜開発の準備〜</title>
+      <link>http://blog.tackeyy.org/post/2016-05-15/procedure-of-making-web-app/</link>
+      <pubDate>Sun, 15 May 2016 01:57:31 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016-05-15/procedure-of-making-web-app/</guid>
+      <description>
+
+&lt;p&gt;この前の&lt;a href=&#34;http://blog.tackeyy.org/post/2016-05-13/koreyondoke-com/&#34;&gt;記事&lt;/a&gt;をとりあえず形にしようと思い開発を始めました。&lt;br&gt;
+作業記録としてやった内容をおおまかに記載します。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;開発ことはじめ:c382843f289edcb36f462ed2298f2c68&#34;&gt;開発ことはじめ&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;GitHubにリポジトリを作った&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;ローカルにcloneした&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rails new .&lt;/code&gt; した&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;gemを抜き差しした&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;admin周りのベースを作った
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;rails generate admin_lte2&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;user周りのベースを作った&lt;br&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;rails g sorcery:install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rake db:migrate&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rails g scaffold user email:string crypted_password:string salt:string --migration false&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>SideCIの実行結果をSlackに通知してみる</title>

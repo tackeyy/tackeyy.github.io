@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>作業記録 on F.C. BigDecimal</title>
+    <link>http://blog.tackeyy.org/tags/%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2/</link>
+    <description>Recent content in 作業記録 on F.C. BigDecimal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sun, 15 May 2016 01:57:31 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>これよめ.com 〜開発の準備〜</title>
+      <link>http://blog.tackeyy.org/post/2016-05-15/procedure-of-making-web-app/</link>
+      <pubDate>Sun, 15 May 2016 01:57:31 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016-05-15/procedure-of-making-web-app/</guid>
+      <description>
+
+&lt;p&gt;この前の&lt;a href=&#34;http://blog.tackeyy.org/post/2016-05-13/koreyondoke-com/&#34;&gt;記事&lt;/a&gt;をとりあえず形にしようと思い開発を始めました。&lt;br&gt;
+作業記録としてやった内容をおおまかに記載します。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;開発ことはじめ:c382843f289edcb36f462ed2298f2c68&#34;&gt;開発ことはじめ&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;GitHubにリポジトリを作った&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;ローカルにcloneした&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rails new .&lt;/code&gt; した&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;gemを抜き差しした&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;admin周りのベースを作った
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;rails generate admin_lte2&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;user周りのベースを作った&lt;br&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;rails g sorcery:install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rake db:migrate&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rails g scaffold user email:string crypted_password:string salt:string --migration false&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
