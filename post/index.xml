@@ -33,7 +33,7 @@
 &lt;h3 id=&#34;rubocopの結果が見にくい:c70d9faebd769dcef536a9856ec7f8be&#34;&gt;RuboCopの結果が見にくい&lt;/h3&gt;
 
 &lt;p&gt;エディタはVimを使っているので、プラグインを探すと&lt;a href=&#34;https://github.com/ngmy/vim-rubocop&#34;&gt;こんなの&lt;/a&gt;があった。&lt;br&gt;
-プラグインはNeoBundleで管理しているので、以下の行を足して完了。&lt;br&gt;
+プラグインはNeoBundleで管理しているので、以下の行を~/.vimrcに足して完了。&lt;br&gt;
 1. &lt;code&gt;NeoBundle &#39;ngmy/vim-rubocop&#39; &amp;quot;rubocop&lt;/code&gt;&lt;br&gt;
 1. &lt;code&gt;NeoBundleInstall&lt;/code&gt;&lt;br&gt;
 &lt;br&gt;
