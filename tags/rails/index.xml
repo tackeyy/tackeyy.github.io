@@ -10,7 +10,7 @@
     <atom:link href="http://blog.tackeyy.org/tags/rails/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>RuboCopでコードの静的チェックをしてみた</title>
+      <title>RuboCopでコードの静的チェックをしてみた@ローカル</title>
       <link>http://blog.tackeyy.org/post/2016-05-19/rubocop/</link>
       <pubDate>Thu, 19 May 2016 07:47:12 +0900</pubDate>
       
