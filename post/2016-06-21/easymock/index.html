@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    モンキーパッチ | F.C. BigDecimal
+    node-easymockでモックサーバーを立てる | F.C. BigDecimal
   </title>
 
 
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.tackeyy.org/post/2016-06-14/monkey-patch/"/>
+  <link rel="canonical" href="http://blog.tackeyy.org/post/2016-06-21/easymock/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -64,45 +64,71 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>モンキーパッチ</h1>
+      <h1>node-easymockでモックサーバーを立てる</h1>
       <div class="meta">
-        Jun 14, 2016 &nbsp;
+        Jun 21, 2016 &nbsp;
         
-          #<a href="/tags/%E3%83%A2%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%91%E3%83%83%E3%83%81">モンキーパッチ</a>&nbsp;
+          #<a href="/tags/api">API</a>&nbsp;
         
           #<a href="/tags/rails">rails</a>&nbsp;
         
-          #<a href="/tags/ruby">Ruby</a>&nbsp;
+          #<a href="/tags/node">node</a>&nbsp;
+        
+          #<a href="/tags/node-easymock">node-easymock</a>&nbsp;
         
       </div>
     </div>
     <article>
       
 
-<p>社内の方が<a href="https://github.com/t-k/gmo-payment-ruby">gmo-payment-ruby</a>にあてたモンキーパッチを紹介されていました。<br>
-前職ではJavaを主に使っていて、外部のライブラリを使用するというよりも自社で自社仕様のライブラリを使う（もしくは作る）方が多かったので、<br>
-今回初めてモンキーパッチという言葉を聞きました。<br></p>
+<h4 id="node-easymock:d7ce3da87a14f82de3ea69a2bacb3ef4">node-easymock</h4>
 
-<h4 id="モンキーパッチ:1520bcef3e0cf7194b7be104b759d6c9">モンキーパッチ</h4>
+<p><a href="https://github.com/cyberagent/node-easymock">https://github.com/cyberagent/node-easymock</a></p>
 
-<blockquote>
-<p>モンキーパッチは、オリジナルのソースコードを変更することなく、実行時に動的言語(例えばSmalltalk, JavaScript, Objective-C, Ruby, Perl, Python, Groovy, など)のコードを拡張したり、変更したりする方法である。
-<a href="https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%91%E3%83%83%E3%83%81">Wiki</a></p>
-</blockquote>
+<p>APIの仕様は固まっているが実装中などというシチュエーションにおいて、<br>
+サンプルデータをAPIの仕様にそって作成しておけば、APIが返すJSONを返してくれるモックサーバーが簡単に作るれるツールです。<br></p>
 
-<h4 id="方法:1520bcef3e0cf7194b7be104b759d6c9">方法</h4>
+<h4 id="モックサーバーを導入するモチベーション:d7ce3da87a14f82de3ea69a2bacb3ef4">モックサーバーを導入するモチベーション</h4>
+
+<p>（自分が主導したわけではないのですが）<br></p>
 
 <ul>
-<li>紹介されたモンキーパッチでは、class_eval, module_eval (Module)を使用して実装していました<br>
-<a href="http://ref.xaio.jp/ruby/classes/module/class_eval">http://ref.xaio.jp/ruby/classes/module/class_eval</a></li>
+<li>APIの実装はまだ時間がかかるが、<br></li>
+<li>仕様はあらかた決まっているため、<br></li>
+<li>APIに繋ぎこみを早く行いたい<br></li>
 </ul>
 
-<h4 id="話を受けて思ったこと:1520bcef3e0cf7194b7be104b759d6c9">話を受けて思ったこと</h4>
+<h3 id="使い方:d7ce3da87a14f82de3ea69a2bacb3ef4">使い方</h3>
 
-<ul>
-<li>モンキーパッチが呼び出されていることをコード見ただけでわかるか？<br>
-運用・保守を行うフェーズを想定すると上記の観点を満たせるか、という点が大事になる気がしました。<br></li>
-</ul>
+<p><a href="https://github.com/cyberagent/node-easymock#usage">本家のREADME</a>だけで簡単にインストールできたのですが、<br>
+複数のデータをベタ書きではなく少しいい感じに作ろうとほんの少しだけ試行錯誤しました。<br></p>
+
+<p>lib/easymock/_templates/notice.json<br></p>
+
+<pre><code>{
+  &quot;noticeId&quot;: &quot;#{_1}&quot;,
+  &quot;noticeTitle&quot;: &quot;通知#{_1}&quot;,
+  &quot;noticeDetail&quot;: &quot;通知#{_1}の詳細&quot;
+}
+</code></pre>
+
+<p>lib/easymock/me/notice/1_get.json<br></p>
+
+<pre><code>{
+  &quot;notice&quot;: [
+    &quot;{{notice(1)}}&quot;,
+    &quot;{{notice(2)}}&quot;,
+    &quot;{{notice(3)}}&quot;
+  ]
+}
+</code></pre>
+
+<p>参考にしたREADMEは<a href="https://github.com/cyberagent/node-easymock#parameters">ここらへん</a>です。<br>
+上記のデータだと引数が一つなので問題ないですが、例えばcategoryのように0: 学校, 1: 職場みたいなケースの場合、<br>
+<code>&quot;{{notice(1, 0)&quot;}}</code>のようにするとデータと見ただけでは何をしているのか分からなくなってしまいます。<br>
+それを解決するために<code>config.json</code>に変数を定義することができます。詳細は<a href="https://github.com/cyberagent/node-easymock#configjson">ここ</a>に記載があります。<br>
+なるほど、変数を定義して&hellip;と思ったらnoticeの引数に変数をセットしても式展開されずに難儀しました。<br>
+可読性も大切ですが、あくまでテストデータなので、ここで時間をかけるより他に時間をかけた方が良いことがある！と言い聞かせて、結局変数は使いませんでした。</p>
 
       
       
@@ -127,10 +153,8 @@
   
   <nav class="pagination-single">
     
-      <span class="previous">&larr; <a href="http://blog.tackeyy.org/post/2016-06-14/hugo-commands/" rel="prev">Hugoのコマンド3選</a></span>
+      <span class="previous">&larr; <a href="http://blog.tackeyy.org/post/2016-06-14/monkey-patch/" rel="prev">モンキーパッチ</a></span>
     
-    
-      <span class="next"><a href="http://blog.tackeyy.org/post/2016-06-21/easymock/" rel="next">node-easymockでモックサーバーを立てる</a> &rarr;</span>
     
   </nav>
 
