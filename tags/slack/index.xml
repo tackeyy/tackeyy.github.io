@@ -100,7 +100,7 @@ Slackに問い合わせみたところ&lt;a href=&#34;https://gyazo.com/bb6183e3
 &lt;li&gt;SlackでCircleCIと連携する設定&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Channelの(左上)[&lt;a href=&#34;https://gyazo.com/304cd41890db875b1e121a6eace1ab0d]からApps&#34;&gt;https://gyazo.com/304cd41890db875b1e121a6eace1ab0d]からApps&lt;/a&gt; &amp;amp; integrationsを選択します。&lt;br&gt;
+&lt;p&gt;Channelの&lt;a href=&#34;https://gyazo.com/304cd41890db875b1e121a6eace1ab0d&#34;&gt;左上&lt;/a&gt;からApps &amp;amp; integrationsを選択します。&lt;br&gt;
 画面遷移後にCircle CIを検索して、notificationを送信したい&lt;a href=&#34;https://gyazo.com/77053b3ed12ab7179a484227ca08d06f&#34;&gt;チームを選択&lt;/a&gt;します。&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;*すでに設定しているので上の画像では、configureになっています&lt;br&gt;
