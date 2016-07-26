@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    git commitを取り消す | F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし
+    既存のディレクトリにrails newする | F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし
   </title>
 
 
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.tackeyy.org/post/2016-07-21/"/>
+  <link rel="canonical" href="http://blog.tackeyy.org/post/2016-07-26/create-rails-project-into-current-directry/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -64,37 +64,24 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>git commitを取り消す</h1>
+      <h1>既存のディレクトリにrails newする</h1>
       <div class="meta">
-        Jul 21, 2016 &nbsp;
+        Jul 26, 2016 &nbsp;
         
-          #<a href="/tags/git">git</a>&nbsp;
-        
-          #<a href="/tags/tips">tips</a>&nbsp;
+          #<a href="/tags/rails">rails</a>&nbsp;
         
       </div>
     </div>
     <article>
-      
+      <p>久しぶりに <code>rails new</code> しようと思うといつも忘れるのでメモ。<br></p>
 
-<h1 id="間違えてdevelopにコミットしてもーた:4d9b98fd1de7db2ba9ebc6f3acdc3cd1">間違えてdevelopにコミットしてもーた</h1>
+<p><code>rails new .</code></p>
 
-<p>そんな時にいつもコミットの取り消し方をググるので備忘がてらメモ。</p>
+<p>そもそもディレクトリを作ってからじゃなくて、 <code>git clone</code> すれば良い話なんだけど。<br></p>
 
-<h1 id="コミットを取り消してワークディレクトリはそのままにする:4d9b98fd1de7db2ba9ebc6f3acdc3cd1">コミットを取り消してワークディレクトリはそのままにする</h1>
+<p><br></p>
 
-<pre><code>  git reset --soft HEAD^
-</code></pre>
-
-<h1 id="コミットを取り消してワークディレクトリの内容も書き換える:4d9b98fd1de7db2ba9ebc6f3acdc3cd1">コミットを取り消してワークディレクトリの内容も書き換える</h1>
-
-<pre><code>  git reset --hard HEAD^
-</code></pre>
-
-<h1 id="その他:4d9b98fd1de7db2ba9ebc6f3acdc3cd1">その他</h1>
-
-<p>説明されてるページ見つけた。<br>
-<a href="http://d.hatena.ne.jp/mrgoofy33/20100910/1284069468">http://d.hatena.ne.jp/mrgoofy33/20100910/1284069468</a></p>
+<p>以上。</p>
 
       
       
@@ -119,10 +106,8 @@
   
   <nav class="pagination-single">
     
-      <span class="previous">&larr; <a href="http://blog.tackeyy.org/post/2016-07-16/pet-trimming-salons/" rel="prev">ペットのトリミングサロンをまとめたウェブサイト</a></span>
+      <span class="previous">&larr; <a href="http://blog.tackeyy.org/post/2016-07-21/" rel="prev">git commitを取り消す</a></span>
     
-    
-      <span class="next"><a href="http://blog.tackeyy.org/post/2016-07-26/create-rails-project-into-current-directry/" rel="next">既存のディレクトリにrails newする</a> &rarr;</span>
     
   </nav>
 
