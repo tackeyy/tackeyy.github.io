@@ -6,8 +6,26 @@
     <description>Recent content in Tips on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Thu, 21 Jul 2016 15:50:21 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 26 Jul 2016 23:43:17 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>既存のディレクトリにrails newする</title>
+      <link>http://blog.tackeyy.org/post/2016-07-26/create-rails-project-into-current-directry/</link>
+      <pubDate>Tue, 26 Jul 2016 23:43:17 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016-07-26/create-rails-project-into-current-directry/</guid>
+      <description>&lt;p&gt;久しぶりに &lt;code&gt;rails new&lt;/code&gt; しようと思うといつも忘れるのでメモ。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;rails new .&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;そもそもディレクトリを作ってからじゃなくて、 &lt;code&gt;git clone&lt;/code&gt; すれば良い話なんだけど。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;以上。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>git commitを取り消す</title>
