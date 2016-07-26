@@ -11,10 +11,10 @@
     
     <item>
       <title>GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する</title>
-      <link>http://blog.tackeyy.org/post/2016-07-27/</link>
+      <link>http://blog.tackeyy.org/post/2016-07-27/change-http-to-ssh-on-github/</link>
       <pubDate>Tue, 26 Jul 2016 23:54:46 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-07-27/</guid>
+      <guid>http://blog.tackeyy.org/post/2016-07-27/change-http-to-ssh-on-github/</guid>
       <description>
 
 &lt;p&gt;時々なぜかhttpでcloneしてしまうことがあって、その都度どうやってsshにするんだっけ？となるのでメモ。&lt;/p&gt;
