@@ -6,8 +6,32 @@
     <description>Recent content on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Tue, 26 Jul 2016 23:43:17 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 26 Jul 2016 23:54:46 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する</title>
+      <link>http://blog.tackeyy.org/post/2016-07-27/</link>
+      <pubDate>Tue, 26 Jul 2016 23:54:46 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016-07-27/</guid>
+      <description>
+
+&lt;p&gt;時々なぜかhttpでcloneしてしまうことがあって、その都度どうやってsshにするんだっけ？となるのでメモ。&lt;/p&gt;
+
+&lt;h1 id=&#34;現在のoriginの状態を確認する:7cc779059b05231007a7fd355325a9d8&#34;&gt;現在のoriginの状態を確認する&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;git remote -v&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;sshに変更する:7cc779059b05231007a7fd355325a9d8&#34;&gt;SSHに変更する&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;参考:7cc779059b05231007a7fd355325a9d8&#34;&gt;参考&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://help.github.com/articles/changing-a-remote-s-url/&#34;&gt;https://help.github.com/articles/changing-a-remote-s-url/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>既存のディレクトリにrails newする</title>
@@ -15,15 +39,23 @@
       <pubDate>Tue, 26 Jul 2016 23:43:17 +0900</pubDate>
       
       <guid>http://blog.tackeyy.org/post/2016-07-26/create-rails-project-into-current-directry/</guid>
-      <description>&lt;p&gt;久しぶりに &lt;code&gt;rails new&lt;/code&gt; しようと思うといつも忘れるのでメモ。&lt;br&gt;&lt;/p&gt;
+      <description>
+
+&lt;p&gt;久しぶりに &lt;code&gt;rails new&lt;/code&gt; しようと思うといつも忘れるのでメモ。&lt;br&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;コマンド:bbb14a0b07c3fe05c1b3ac6fc1faed5f&#34;&gt;コマンド&lt;/h1&gt;
 
 &lt;p&gt;&lt;code&gt;rails new .&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;そもそもディレクトリを作ってからじゃなくて、 &lt;code&gt;git clone&lt;/code&gt; すれば良い話なんだけど。&lt;br&gt;&lt;/p&gt;
+&lt;h1 id=&#34;参考:bbb14a0b07c3fe05c1b3ac6fc1faed5f&#34;&gt;参考&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ltcmdr927.hatenablog.jp/entry/2014/04/10/174333&#34;&gt;http://ltcmdr927.hatenablog.jp/entry/2014/04/10/174333&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;以上。&lt;/p&gt;
+&lt;p&gt;そもそもディレクトリを作ってからじゃなくて、 &lt;code&gt;git clone&lt;/code&gt; すれば良い話なんだけど。&lt;br&gt;
+&lt;br&gt;
+以上。&lt;/p&gt;
 </description>
     </item>
     
@@ -744,88 +776,6 @@ npmはnodeに内包されているので、以下の通りにすれば上記の&
 &lt;br&gt;
 &lt;br&gt;
 ちゃんちゃん。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>これ読んどけ.com</title>
-      <link>http://blog.tackeyy.org/post/2016-05-13/koreyondoke-com/</link>
-      <pubDate>Fri, 13 May 2016 01:19:12 +0900</pubDate>
-      
-      <guid>http://blog.tackeyy.org/post/2016-05-13/koreyondoke-com/</guid>
-      <description>
-
-&lt;p&gt;思いついたアイディアをメモ。&lt;br&gt;
-スケールはしなさそうだけど、個人的にあったら使うかも。&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;これ読んどけ-com:00e62d1205ac1d61d9deb46c87a2d537&#34;&gt;これ読んどけ.com&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;概要
-
-&lt;ul&gt;
-&lt;li&gt;ある人のお勧め書籍一覧で見れるSNSライクなイメージ
-
-&lt;ul&gt;
-&lt;li&gt;e.g
-
-&lt;ul&gt;
-&lt;li&gt;営業でお勧めの本リスト&lt;/li&gt;
-&lt;li&gt;railsのお勧めの本リスト&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ユーザー
-
-&lt;ul&gt;
-&lt;li&gt;先輩
-
-&lt;ul&gt;
-&lt;li&gt;ある分野のお勧めの本（これ読んどけ）を追加する&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;後輩
-
-&lt;ul&gt;
-&lt;li&gt;先輩が作った「これ読んどけリスト」を閲覧、コメントなど
-
-&lt;ul&gt;
-&lt;li&gt;後輩はある分野の未経験者、初心者（新社会人、新米エンジニアなど）などを想定&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;解決する問題
-
-&lt;ul&gt;
-&lt;li&gt;先輩
-
-&lt;ul&gt;
-&lt;li&gt;「〇〇について勉強したいのですが、何読めばいいですか」って聞かれていちいち回答する時間が面倒&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;後輩
-
-&lt;ul&gt;
-&lt;li&gt;ある分野で著名な本を知る手段が少ない
-
-&lt;ul&gt;
-&lt;li&gt;ビジネスならプレジデントの書籍リストを見る&lt;/li&gt;
-&lt;li&gt;人に聞く&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;教えてもらった書籍のタイトルをメモるのだるい&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;解決策
-
-&lt;ul&gt;
-&lt;li&gt;ネット上にある人のお勧め本一覧を作ってもらい、そのURLを後輩にシェアする
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-ちゃんちゃん。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    Github | F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし
+    GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する | F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし
   </title>
 
 
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.tackeyy.org/tags/github/"/>
+  <link rel="canonical" href="http://blog.tackeyy.org/post/2016-07-27/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -62,11 +62,9 @@
 
 
   
-  <main id="list" role="main">
-    <div class="article-header light-gray"><h1>#Github</h1></div>
-    
-    <div class="summary">
-      <h2><a href="http://blog.tackeyy.org/post/2016-07-27/">GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する </a></h2>
+  <main id="single" role="main">
+    <div class="article-header">
+      <h1>GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する</h1>
       <div class="meta">
         Jul 26, 2016 &nbsp;
         
@@ -76,20 +74,50 @@
         
       </div>
     </div>
+    <article>
+      
+
+<p>時々なぜかhttpでcloneしてしまうことがあって、その都度どうやってsshにするんだっけ？となるのでメモ。</p>
+
+<h1 id="現在のoriginの状態を確認する:7cc779059b05231007a7fd355325a9d8">現在のoriginの状態を確認する</h1>
+
+<p><code>git remote -v</code></p>
+
+<h1 id="sshに変更する:7cc779059b05231007a7fd355325a9d8">SSHに変更する</h1>
+
+<p><code>git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git</code></p>
+
+<h1 id="参考:7cc779059b05231007a7fd355325a9d8">参考</h1>
+
+<p><a href="https://help.github.com/articles/changing-a-remote-s-url/">https://help.github.com/articles/changing-a-remote-s-url/</a></p>
+
+      
+      
+      
+        <div id="share-this" class="col span_10">
+          <span class='st_twitter_large' displayText='Tweet'></span>
+          <span class='st_facebook_large' displayText='Facebook'></span>
+          <span class='st_googleplus_large' displayText='Google +'></span>
+          <span class='st_pocket_large' displayText='Pocket'></span>
+          <span class='st_sharethis_large' displayText='ShareThis'></span>
+          <span class='st_email_large' displayText='Email'></span>  
+        </div>
+      
+    </article>
     
-    <div class="summary">
-      <h2><a href="http://blog.tackeyy.org/post/2016-05-17/add-ssh-key-to-github/">GitHubにSSH公開鍵をやっと登録した </a></h2>
-      <div class="meta">
-        May 17, 2016 &nbsp;
-        
-          #<a href="/tags/github">GitHub</a>&nbsp;
-        
-          #<a href="/tags/%E5%85%AC%E9%96%8B%E9%8D%B5">公開鍵</a>&nbsp;
-        
-      </div>
-    </div>
-    
+ <aside><div id="disqus_thread"></div></aside>
+
+<script type="text/javascript">
+     
+    var disqus_shortname = '
   </main>
+  
+  <nav class="pagination-single">
+    
+      <span class="previous">&larr; <a href="http://blog.tackeyy.org/post/2016-07-26/create-rails-project-into-current-directry/" rel="prev">既存のディレクトリにrails newする</a></span>
+    
+    
+  </nav>
 
 
   
