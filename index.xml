@@ -6,8 +6,28 @@
     <description>Recent content on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Wed, 27 Jul 2016 23:54:46 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 31 Jul 2016 19:00:26 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016-07-31</title>
+      <link>http://blog.tackeyy.org/post/2016-07-31/itunes-migration/</link>
+      <pubDate>Sun, 31 Jul 2016 19:00:26 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016-07-31/itunes-migration/</guid>
+      <description>
+
+&lt;h1 id=&#34;macの移行アシスタントを使わずにitunesの移行方法について:acda8f072eaabc06c5e2295032794f8b&#34;&gt;Macの移行アシスタントを使わずにiTunesの移行方法について&lt;/h1&gt;
+
+&lt;p&gt;path忘れちゃいそうなのでメモ。&lt;/p&gt;
+
+&lt;h2 id=&#34;やり方:acda8f072eaabc06c5e2295032794f8b&#34;&gt;やり方&lt;/h2&gt;
+
+&lt;p&gt;以下の階層に全て音楽が入っているので移行元からデータを取ってきて移行先にコピーするだけ。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;/Users/{user_name}/Music/iTunes/iTunes Media&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する</title>
@@ -705,72 +725,6 @@ Slackに問い合わせみたところ&lt;a href=&#34;https://gyazo.com/bb6183e3
 設定箇所へたどり着くには、&lt;a href=&#34;https://gyazo.com/324c92ff27b547843291c71c1086c1e2&#34;&gt;ここ&lt;/a&gt;の歯車をクリック後に&lt;br&gt;
 ダッシュボードの中央左のChat NotificationsからSlackで説明されていた設定（URL貼るだけですが）を行います。&lt;br&gt;
 記載してありますが、Fixed/Failed Onlyにチェックを入れると、ビルド失敗/修正だけがNotificationのトリガーになります。&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-ちゃんちゃん。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>uiflowを使ってみる</title>
-      <link>http://blog.tackeyy.org/post/2016-05-13/how-%202-use-uiflow/</link>
-      <pubDate>Fri, 13 May 2016 01:41:17 +0900</pubDate>
-      
-      <guid>http://blog.tackeyy.org/post/2016-05-13/how-%202-use-uiflow/</guid>
-      <description>
-
-&lt;p&gt;勉強も兼ねて&lt;a href=&#34;http://blog.tackeyy.org/post/2016-05-13/koreyondoke-com/&#34;&gt;この前書いたアイディア&lt;/a&gt;を作ってみようかなと思ってます。&lt;br&gt;
-まずはサイトマップを書こうと思い、前々から気になったツールを使ってみました。&lt;/p&gt;
-
-&lt;h3 id=&#34;uiflow:0bf94d7be72a5e82c913b1cdb598da40&#34;&gt;uiflow?&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://qiita.com/hirokidaichi/items/ff54a968bdd7bcc50d42&#34;&gt;もう保守されない画面遷移図は嫌なので、UI Flow図を簡単にマークダウンぽく書くエディタ作った&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;インストール:0bf94d7be72a5e82c913b1cdb598da40&#34;&gt;インストール&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;インストール方法
-グラフの生成にはGraphvizを用います。&lt;br&gt;
-brewなどを通じてinstallしておいてください。&lt;br&gt;
-&lt;code&gt;brew install graphviz&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;npm install -g uiflow&lt;/code&gt;&lt;br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;@see &lt;a href=&#34;https://github.com/hirokidaichi/uiflow&#34;&gt;https://github.com/hirokidaichi/uiflow&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;インストール方法はREADMEに書いてあります。&lt;br&gt;
-npmをインストールしていない場合は、以下のコマンドでnpmをインストール後に上記のREADME通りにすれば、セットアップ完了です。&lt;br&gt;
-&lt;br&gt;
-npmはnodeに内包されているので、以下の通りにすれば上記の&lt;code&gt;npm install ~&lt;/code&gt;をたたけるようになります。&lt;br&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;node / npm をインストールする&lt;br&gt;
-&lt;code&gt;brew install node&lt;/code&gt;&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;インストールできたかどうかは、以下で確認しました。&lt;br&gt;
-&lt;code&gt;npm --version&lt;/code&gt;&lt;br&gt;
-&amp;gt; 3.8.6&lt;/p&gt;
-
-&lt;h3 id=&#34;使い方:0bf94d7be72a5e82c913b1cdb598da40&#34;&gt;使い方&lt;/h3&gt;
-
-&lt;p&gt;もうインストールできたら使い方は迷いません。&lt;br&gt;
-ディレクトリはお好きにどうぞ。&lt;br&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;mkdir content&lt;/code&gt;(uiflow直下）&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;vim koreyome-com.txt&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;何か書く&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;uiflow -i koreyome-com.txt -o koreyome.png -f png&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;uiflow直下にkoreyome.pngができる&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gyazo.com/5bedd4090b3d3b74b88d589ad9472f0a&#34;&gt;こんな感じ&lt;/a&gt;になります。(READMEの説明をコピーしました。）&lt;br&gt;
-もう夜遅いから明日フロー書きます。&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
