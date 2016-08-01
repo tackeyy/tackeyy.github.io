@@ -1,50 +1,101 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>F.C. BigDecimal</title>
+    <title>F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</title>
     <link>http://blog.tackeyy.org/tags/</link>
-    <description>Recent content on F.C. BigDecimal</description>
+    <description>Recent content on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Tue, 14 Jun 2016 20:12:54 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 01 Aug 2016 23:37:50 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Hugoのコマンド3選</title>
-      <link>http://blog.tackeyy.org/post/2016-06-14/hugo-commands/</link>
-      <pubDate>Tue, 14 Jun 2016 20:12:54 +0900</pubDate>
+      <title>Rspecでテストを書くときの雛形</title>
+      <link>http://blog.tackeyy.org/post/2016-08-01/rspec-template/</link>
+      <pubDate>Mon, 01 Aug 2016 23:37:50 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-06-14/hugo-commands/</guid>
+      <guid>http://blog.tackeyy.org/post/2016-08-01/rspec-template/</guid>
       <description>
 
-&lt;h3 id=&#34;普段使う-というよりもこれ以外使ってない-コマンド3選:0cd16b54df007c4eb14eef8cde24f476&#34;&gt;普段使う（というよりもこれ以外使ってない）コマンド3選&lt;/h3&gt;
+&lt;p&gt;最近Rspecでテストを書くことが増えているのですが、特別な処理がない限りある程度テスト内容が大体同じなのでは？と思っています。&lt;br&gt;
+処理がほぼ同じなのであれば、雛形があった方が実装が早いので、雛形をメモしておく次第です。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;携わっているプロジェクトのコードですが、以下の点より業務に影響がないと判断しています。&lt;br&gt;
+* adminは大体どのプロジェクトでも存在している（かつ特殊な処理を書いてない）
+* プロジェクトが特定される内容がない&lt;/p&gt;
+
+&lt;h1 id=&#34;spec-controllers-rb:ea9c8302dac4598d2cb9137d1657275c&#34;&gt;spec/controllers/*&lt;em&gt;/&lt;/em&gt;.rb&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;記事追加&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;普通のspecテストの雛形&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code&gt;hugo new post/yyyy-mm-dd_title.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;年月日は好みで入れてます。&lt;br&gt;&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/tackeyy/12d39610347ec2538481a18ce28d5ae5.js&#34;&gt;&lt;/script&gt;
 
 &lt;ul&gt;
-&lt;li&gt;サーバー起動&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;spec x FactoryGirl&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code&gt;hugo server -t angels-ladder -D -w
-&lt;/code&gt;&lt;/pre&gt;
+&lt;script src=&#34;https://gist.github.com/tackeyy/320927641ec26be11369aae90aeb4c74.js&#34;&gt;&lt;/script&gt;
 
-&lt;p&gt;-D ・・・ ドラフトも起動する&lt;br&gt;
--W ・・・ 保存時にページをリロード&lt;br&gt;
-angels-ladder ・・・ layout名&lt;/p&gt;
+&lt;h1 id=&#34;spec-models-rb:ea9c8302dac4598d2cb9137d1657275c&#34;&gt;spec/models/*.rb&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;デプロイ&lt;/li&gt;
+&lt;li&gt;普通のspecテストの雛形&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code&gt;hugo -t angels-ladder
-&lt;/code&gt;&lt;/pre&gt;
+&lt;script src=&#34;https://gist.github.com/tackeyy/8ce63b57638f2fc58f046e2b63a23f70.js&#34;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;rspec x factory girl x web mock&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/05e71aadfa4cdbee157820c8553a2111.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rspecでテストを書くときの雛形</title>
+      <link>http://blog.tackeyy.org/post/2016-08-01/rspec-template/</link>
+      <pubDate>Mon, 01 Aug 2016 23:37:50 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016-08-01/rspec-template/</guid>
+      <description>
+
+&lt;p&gt;最近Rspecでテストを書くことが増えているのですが、特別な処理がない限りある程度テスト内容が大体同じなのでは？と思っています。&lt;br&gt;
+処理がほぼ同じなのであれば、雛形があった方が実装が早いので、雛形をメモしておく次第です。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;携わっているプロジェクトのコードですが、以下の点より業務に影響がないと判断しています。&lt;br&gt;
+* adminは大体どのプロジェクトでも存在している（かつ特殊な処理を書いてない）
+* プロジェクトが特定される内容がない&lt;/p&gt;
+
+&lt;h1 id=&#34;spec-controllers-rb:ea9c8302dac4598d2cb9137d1657275c&#34;&gt;spec/controllers/*&lt;em&gt;/&lt;/em&gt;.rb&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;普通のspecテストの雛形&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/12d39610347ec2538481a18ce28d5ae5.js&#34;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;spec x FactoryGirl&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/320927641ec26be11369aae90aeb4c74.js&#34;&gt;&lt;/script&gt;
+
+&lt;h1 id=&#34;spec-models-rb:ea9c8302dac4598d2cb9137d1657275c&#34;&gt;spec/models/*.rb&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;普通のspecテストの雛形&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/8ce63b57638f2fc58f046e2b63a23f70.js&#34;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;rspec x factory girl x web mock&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/05e71aadfa4cdbee157820c8553a2111.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     

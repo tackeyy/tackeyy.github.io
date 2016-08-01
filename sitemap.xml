@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://blog.tackeyy.org/</loc>
-    <lastmod>2016-07-31T19:00:26+09:00</lastmod>
+    <lastmod>2016-08-01T23:37:50+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.tackeyy.org/post/2016-08-01/rspec-template/</loc>
+    <lastmod>2016-08-01T23:37:50+09:00</lastmod>
   </url>
   
   <url>
