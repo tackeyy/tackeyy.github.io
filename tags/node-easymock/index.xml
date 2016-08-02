@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Node Easymock on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</title>
-    <link>http://blog.tackeyy.org/tags/node-easymock/</link>
-    <description>Recent content in Node Easymock on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</description>
+    <title>Node Easymock on </title>
+    <link>/tags/node-easymock/</link>
+    <description>Recent content in Node Easymock on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>jp</language>
     <lastBuildDate>Tue, 21 Jun 2016 17:23:04 +0900</lastBuildDate>
-    <atom:link href="http://blog.tackeyy.org/tags/node-easymock/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/node-easymock/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>node-easymockでモックサーバーを立てる</title>
-      <link>http://blog.tackeyy.org/post/2016-06-21/easymock/</link>
+      <link>/post/2016-06-21/easymock/</link>
       <pubDate>Tue, 21 Jun 2016 17:23:04 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-06-21/easymock/</guid>
+      <guid>/post/2016-06-21/easymock/</guid>
       <description>
 
 &lt;h4 id=&#34;node-easymock:d7ce3da87a14f82de3ea69a2bacb3ef4&#34;&gt;node-easymock&lt;/h4&gt;

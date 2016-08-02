@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tips on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</title>
-    <link>http://blog.tackeyy.org/tags/tips/</link>
-    <description>Recent content in Tips on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</description>
+    <title>Tips on </title>
+    <link>/tags/tips/</link>
+    <description>Recent content in Tips on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>jp</language>
     <lastBuildDate>Sun, 31 Jul 2016 19:00:26 +0900</lastBuildDate>
-    <atom:link href="http://blog.tackeyy.org/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Macの移行アシスタントを使用せずにiTunesを移行する方法</title>
-      <link>http://blog.tackeyy.org/post/2016-07-31/itunes-migration/</link>
+      <link>/post/2016-07-31/itunes-migration/</link>
       <pubDate>Sun, 31 Jul 2016 19:00:26 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-07-31/itunes-migration/</guid>
+      <guid>/post/2016-07-31/itunes-migration/</guid>
       <description>
 
 &lt;h1 id=&#34;macの移行アシスタントを使わずにitunesの移行方法について:acda8f072eaabc06c5e2295032794f8b&#34;&gt;Macの移行アシスタントを使わずにiTunesの移行方法について&lt;/h1&gt;
@@ -31,10 +30,10 @@
     
     <item>
       <title>GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する</title>
-      <link>http://blog.tackeyy.org/post/2016-07-27/change-http-to-ssh-on-github/</link>
+      <link>/post/2016-07-27/change-http-to-ssh-on-github/</link>
       <pubDate>Wed, 27 Jul 2016 23:54:46 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-07-27/change-http-to-ssh-on-github/</guid>
+      <guid>/post/2016-07-27/change-http-to-ssh-on-github/</guid>
       <description>
 
 &lt;p&gt;時々なぜかhttpでcloneしてしまうことがあって、その都度どうやってsshにするんだっけ？となるのでメモ。&lt;/p&gt;
@@ -55,10 +54,10 @@
     
     <item>
       <title>既存のディレクトリにrails newする</title>
-      <link>http://blog.tackeyy.org/post/2016-07-26/create-rails-project-into-current-directry/</link>
+      <link>/post/2016-07-26/create-rails-project-into-current-directry/</link>
       <pubDate>Tue, 26 Jul 2016 23:43:17 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-07-26/create-rails-project-into-current-directry/</guid>
+      <guid>/post/2016-07-26/create-rails-project-into-current-directry/</guid>
       <description>
 
 &lt;p&gt;久しぶりに &lt;code&gt;rails new&lt;/code&gt; しようと思うといつも忘れるのでメモ。&lt;br&gt;&lt;/p&gt;
@@ -81,10 +80,10 @@
     
     <item>
       <title>git commitを取り消す</title>
-      <link>http://blog.tackeyy.org/post/2016-07-21/</link>
+      <link>/post/2016-07-21/</link>
       <pubDate>Thu, 21 Jul 2016 15:50:21 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-07-21/</guid>
+      <guid>/post/2016-07-21/</guid>
       <description>
 
 &lt;h1 id=&#34;間違えてdevelopにコミットしてもーた:4d9b98fd1de7db2ba9ebc6f3acdc3cd1&#34;&gt;間違えてdevelopにコミットしてもーた&lt;/h1&gt;

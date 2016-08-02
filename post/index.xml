@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</title>
-    <link>http://blog.tackeyy.org/post/</link>
-    <description>Recent content in Posts on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</description>
+    <title>Posts on </title>
+    <link>/post/</link>
+    <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>jp</language>
     <lastBuildDate>Mon, 01 Aug 2016 23:37:50 +0900</lastBuildDate>
-    <atom:link href="http://blog.tackeyy.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Rspecでテストを書くときの雛形</title>
-      <link>http://blog.tackeyy.org/post/2016-08-01/rspec-template/</link>
+      <link>/post/2016-08-01/rspec-template/</link>
       <pubDate>Mon, 01 Aug 2016 23:37:50 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-08-01/rspec-template/</guid>
+      <guid>/post/2016-08-01/rspec-template/</guid>
       <description>
 
 &lt;p&gt;最近Rspecでテストを書くことが増えているのですが、特別な処理がない限りある程度テスト内容が大体同じなのでは？と思っています。&lt;br&gt;
@@ -48,10 +47,10 @@
     
     <item>
       <title>Macの移行アシスタントを使用せずにiTunesを移行する方法</title>
-      <link>http://blog.tackeyy.org/post/2016-07-31/itunes-migration/</link>
+      <link>/post/2016-07-31/itunes-migration/</link>
       <pubDate>Sun, 31 Jul 2016 19:00:26 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-07-31/itunes-migration/</guid>
+      <guid>/post/2016-07-31/itunes-migration/</guid>
       <description>
 
 &lt;h1 id=&#34;macの移行アシスタントを使わずにitunesの移行方法について:acda8f072eaabc06c5e2295032794f8b&#34;&gt;Macの移行アシスタントを使わずにiTunesの移行方法について&lt;/h1&gt;
@@ -68,10 +67,10 @@
     
     <item>
       <title>GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する</title>
-      <link>http://blog.tackeyy.org/post/2016-07-27/change-http-to-ssh-on-github/</link>
+      <link>/post/2016-07-27/change-http-to-ssh-on-github/</link>
       <pubDate>Wed, 27 Jul 2016 23:54:46 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-07-27/change-http-to-ssh-on-github/</guid>
+      <guid>/post/2016-07-27/change-http-to-ssh-on-github/</guid>
       <description>
 
 &lt;p&gt;時々なぜかhttpでcloneしてしまうことがあって、その都度どうやってsshにするんだっけ？となるのでメモ。&lt;/p&gt;
@@ -92,10 +91,10 @@
     
     <item>
       <title>既存のディレクトリにrails newする</title>
-      <link>http://blog.tackeyy.org/post/2016-07-26/create-rails-project-into-current-directry/</link>
+      <link>/post/2016-07-26/create-rails-project-into-current-directry/</link>
       <pubDate>Tue, 26 Jul 2016 23:43:17 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-07-26/create-rails-project-into-current-directry/</guid>
+      <guid>/post/2016-07-26/create-rails-project-into-current-directry/</guid>
       <description>
 
 &lt;p&gt;久しぶりに &lt;code&gt;rails new&lt;/code&gt; しようと思うといつも忘れるのでメモ。&lt;br&gt;&lt;/p&gt;
@@ -118,10 +117,10 @@
     
     <item>
       <title>git commitを取り消す</title>
-      <link>http://blog.tackeyy.org/post/2016-07-21/</link>
+      <link>/post/2016-07-21/</link>
       <pubDate>Thu, 21 Jul 2016 15:50:21 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-07-21/</guid>
+      <guid>/post/2016-07-21/</guid>
       <description>
 
 &lt;h1 id=&#34;間違えてdevelopにコミットしてもーた:4d9b98fd1de7db2ba9ebc6f3acdc3cd1&#34;&gt;間違えてdevelopにコミットしてもーた&lt;/h1&gt;
@@ -147,10 +146,10 @@
     
     <item>
       <title>ペットのトリミングサロンをまとめたウェブサイト</title>
-      <link>http://blog.tackeyy.org/post/2016-07-16/pet-trimming-salons/</link>
+      <link>/post/2016-07-16/pet-trimming-salons/</link>
       <pubDate>Sat, 16 Jul 2016 18:48:19 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-07-16/pet-trimming-salons/</guid>
+      <guid>/post/2016-07-16/pet-trimming-salons/</guid>
       <description>
 
 &lt;h1 id=&#34;サイト名:fffba3e5c412f84190627849868b7a95&#34;&gt;サイト名&lt;/h1&gt;
@@ -212,10 +211,10 @@
     
     <item>
       <title>調整さんxフットサル大会自動予約</title>
-      <link>http://blog.tackeyy.org/post/2016-06-22/idea-auto-reservation-with-choseisan/</link>
+      <link>/post/2016-06-22/idea-auto-reservation-with-choseisan/</link>
       <pubDate>Wed, 22 Jun 2016 15:01:24 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-06-22/idea-auto-reservation-with-choseisan/</guid>
+      <guid>/post/2016-06-22/idea-auto-reservation-with-choseisan/</guid>
       <description>
 
 &lt;h4 id=&#34;概要:0905df119ea65705ae648cf57ebb6360&#34;&gt;概要&lt;/h4&gt;
@@ -266,10 +265,10 @@
     
     <item>
       <title>node-easymockでモックサーバーを立てる</title>
-      <link>http://blog.tackeyy.org/post/2016-06-21/easymock/</link>
+      <link>/post/2016-06-21/easymock/</link>
       <pubDate>Tue, 21 Jun 2016 17:23:04 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-06-21/easymock/</guid>
+      <guid>/post/2016-06-21/easymock/</guid>
       <description>
 
 &lt;h4 id=&#34;node-easymock:d7ce3da87a14f82de3ea69a2bacb3ef4&#34;&gt;node-easymock&lt;/h4&gt;
@@ -325,10 +324,10 @@
     
     <item>
       <title>モンキーパッチ</title>
-      <link>http://blog.tackeyy.org/post/2016-06-14/monkey-patch/</link>
+      <link>/post/2016-06-14/monkey-patch/</link>
       <pubDate>Tue, 14 Jun 2016 20:28:37 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-06-14/monkey-patch/</guid>
+      <guid>/post/2016-06-14/monkey-patch/</guid>
       <description>
 
 &lt;p&gt;社内の方が&lt;a href=&#34;https://github.com/t-k/gmo-payment-ruby&#34;&gt;gmo-payment-ruby&lt;/a&gt;にあてたモンキーパッチを紹介されていました。&lt;br&gt;
@@ -360,10 +359,10 @@
     
     <item>
       <title>Hugoのコマンド3選</title>
-      <link>http://blog.tackeyy.org/post/2016-06-14/hugo-commands/</link>
+      <link>/post/2016-06-14/hugo-commands/</link>
       <pubDate>Tue, 14 Jun 2016 20:12:54 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-06-14/hugo-commands/</guid>
+      <guid>/post/2016-06-14/hugo-commands/</guid>
       <description>
 
 &lt;h3 id=&#34;普段使う-というよりもこれ以外使ってない-コマンド3選:0cd16b54df007c4eb14eef8cde24f476&#34;&gt;普段使う（というよりもこれ以外使ってない）コマンド3選&lt;/h3&gt;
@@ -399,10 +398,10 @@ angels-ladder ・・・ layout名&lt;/p&gt;
     
     <item>
       <title>carrierwaveを使ってlocalに画像をuploadする</title>
-      <link>http://blog.tackeyy.org/post/2016-05-20/upload-file-to-local-with-carrierwave/</link>
+      <link>/post/2016-05-20/upload-file-to-local-with-carrierwave/</link>
       <pubDate>Fri, 20 May 2016 14:29:04 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-05-20/upload-file-to-local-with-carrierwave/</guid>
+      <guid>/post/2016-05-20/upload-file-to-local-with-carrierwave/</guid>
       <description>
 
 &lt;p&gt;備忘のために&lt;a href=&#34;https://github.com/carrierwaveuploader/carrierwave&#34;&gt;carrierwave&lt;/a&gt;を使って、ローカルに画像をアップロードする手順を記しておきます。&lt;br&gt;&lt;/p&gt;
@@ -491,10 +490,10 @@ viewを以下の通りにするだけで保存時に画像が削除されます�
     
     <item>
       <title>RuboCopでコードの静的チェックをしてみた@ローカル</title>
-      <link>http://blog.tackeyy.org/post/2016-05-19/rubocop/</link>
+      <link>/post/2016-05-19/rubocop/</link>
       <pubDate>Thu, 19 May 2016 07:47:12 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-05-19/rubocop/</guid>
+      <guid>/post/2016-05-19/rubocop/</guid>
       <description>
 
 &lt;p&gt;参加しているプロジェクトでSideCIを用いてGitHub上にPushした時にRuboCopを走らせています。&lt;br&gt;
@@ -534,10 +533,10 @@ quickfix windowが開くので、普通にRuboCop走らせて修正するより�
     
     <item>
       <title>GitHubにSSH公開鍵をやっと登録した</title>
-      <link>http://blog.tackeyy.org/post/2016-05-17/add-ssh-key-to-github/</link>
+      <link>/post/2016-05-17/add-ssh-key-to-github/</link>
       <pubDate>Tue, 17 May 2016 15:25:25 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-05-17/add-ssh-key-to-github/</guid>
+      <guid>/post/2016-05-17/add-ssh-key-to-github/</guid>
       <description>
 
 &lt;p&gt;git pullなどをするときに常にuser/passを聞かれるのが面倒だったので、&lt;br&gt;
@@ -620,10 +619,10 @@ quickfix windowが開くので、普通にRuboCop走らせて修正するより�
     
     <item>
       <title>sorceryのREADMEを読んでみた</title>
-      <link>http://blog.tackeyy.org/post/2016-05-15/sorcery/</link>
+      <link>/post/2016-05-15/sorcery/</link>
       <pubDate>Sun, 15 May 2016 18:11:00 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-05-15/sorcery/</guid>
+      <guid>/post/2016-05-15/sorcery/</guid>
       <description>
 
 &lt;p&gt;sorceryは僕が携わっているプロジェクトで使用されていたりする身近な存在ではあったのですが、&lt;br&gt;
@@ -656,10 +655,10 @@ quickfix windowが開くので、普通にRuboCop走らせて修正するより�
     
     <item>
       <title>SideCIの実行結果をSlackに通知してみる</title>
-      <link>http://blog.tackeyy.org/post/2016-05-14/mailto-slack-from-sideci/</link>
+      <link>/post/2016-05-14/mailto-slack-from-sideci/</link>
       <pubDate>Sat, 14 May 2016 11:17:05 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/post/2016-05-14/mailto-slack-from-sideci/</guid>
+      <guid>/post/2016-05-14/mailto-slack-from-sideci/</guid>
       <description>
 
 &lt;h3 id=&#34;sideci:d4fd0ae8721e64088049829f66bc1e5e&#34;&gt;SideCI?&lt;/h3&gt;
