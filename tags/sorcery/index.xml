@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sorcery on </title>
-    <link>/tags/sorcery/</link>
-    <description>Recent content in Sorcery on </description>
+    <title>Sorcery on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</title>
+    <link>http://blog.tackeyy.org/tags/sorcery/</link>
+    <description>Recent content in Sorcery on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
     <lastBuildDate>Sun, 15 May 2016 18:11:00 +0900</lastBuildDate>
-    <atom:link href="/tags/sorcery/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.tackeyy.org/tags/sorcery/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>sorceryのREADMEを読んでみた</title>
-      <link>/post/2016-05-15/sorcery/</link>
+      <link>http://blog.tackeyy.org/post/2016-05-15/sorcery/</link>
       <pubDate>Sun, 15 May 2016 18:11:00 +0900</pubDate>
       
-      <guid>/post/2016-05-15/sorcery/</guid>
+      <guid>http://blog.tackeyy.org/post/2016-05-15/sorcery/</guid>
       <description>
 
 &lt;p&gt;sorceryは僕が携わっているプロジェクトで使用されていたりする身近な存在ではあったのですが、&lt;br&gt;

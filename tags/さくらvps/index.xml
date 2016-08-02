@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>さくらvps on </title>
-    <link>/tags/%E3%81%95%E3%81%8F%E3%82%89vps/</link>
-    <description>Recent content in さくらvps on </description>
+    <title>さくらvps on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</title>
+    <link>http://blog.tackeyy.org/tags/%E3%81%95%E3%81%8F%E3%82%89vps/</link>
+    <description>Recent content in さくらvps on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
     <lastBuildDate>Sun, 08 May 2016 00:12:03 +0900</lastBuildDate>
-    <atom:link href="/tags/%E3%81%95%E3%81%8F%E3%82%89vps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.tackeyy.org/tags/%E3%81%95%E3%81%8F%E3%82%89vps/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>さくらVPS x wordpressからGitHub Pages x Hugoにした</title>
-      <link>/post/2016-05-08/wordpress-to-hugo/</link>
+      <link>http://blog.tackeyy.org/post/2016-05-08/wordpress-to-hugo/</link>
       <pubDate>Sun, 08 May 2016 00:12:03 +0900</pubDate>
       
-      <guid>/post/2016-05-08/wordpress-to-hugo/</guid>
+      <guid>http://blog.tackeyy.org/post/2016-05-08/wordpress-to-hugo/</guid>
       <description>
 
 &lt;p&gt;さくらVPS x Wordpressにして2週間くらいしか経っていませんが、&lt;br&gt;

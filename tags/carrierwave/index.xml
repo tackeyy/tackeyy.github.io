@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Carrierwave on </title>
-    <link>/tags/carrierwave/</link>
-    <description>Recent content in Carrierwave on </description>
+    <title>Carrierwave on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</title>
+    <link>http://blog.tackeyy.org/tags/carrierwave/</link>
+    <description>Recent content in Carrierwave on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
     <lastBuildDate>Fri, 20 May 2016 14:29:04 +0900</lastBuildDate>
-    <atom:link href="/tags/carrierwave/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.tackeyy.org/tags/carrierwave/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>carrierwaveを使ってlocalに画像をuploadする</title>
-      <link>/post/2016-05-20/upload-file-to-local-with-carrierwave/</link>
+      <link>http://blog.tackeyy.org/post/2016-05-20/upload-file-to-local-with-carrierwave/</link>
       <pubDate>Fri, 20 May 2016 14:29:04 +0900</pubDate>
       
-      <guid>/post/2016-05-20/upload-file-to-local-with-carrierwave/</guid>
+      <guid>http://blog.tackeyy.org/post/2016-05-20/upload-file-to-local-with-carrierwave/</guid>
       <description>
 
 &lt;p&gt;備忘のために&lt;a href=&#34;https://github.com/carrierwaveuploader/carrierwave&#34;&gt;carrierwave&lt;/a&gt;を使って、ローカルに画像をアップロードする手順を記しておきます。&lt;br&gt;&lt;/p&gt;

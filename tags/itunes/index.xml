@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Itunes on </title>
-    <link>/tags/itunes/</link>
-    <description>Recent content in Itunes on </description>
+    <title>Itunes on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</title>
+    <link>http://blog.tackeyy.org/tags/itunes/</link>
+    <description>Recent content in Itunes on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
     <lastBuildDate>Sun, 31 Jul 2016 19:00:26 +0900</lastBuildDate>
-    <atom:link href="/tags/itunes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.tackeyy.org/tags/itunes/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Macの移行アシスタントを使用せずにiTunesを移行する方法</title>
-      <link>/post/2016-07-31/itunes-migration/</link>
+      <link>http://blog.tackeyy.org/post/2016-07-31/itunes-migration/</link>
       <pubDate>Sun, 31 Jul 2016 19:00:26 +0900</pubDate>
       
-      <guid>/post/2016-07-31/itunes-migration/</guid>
+      <guid>http://blog.tackeyy.org/post/2016-07-31/itunes-migration/</guid>
       <description>
 
 &lt;h1 id=&#34;macの移行アシスタントを使わずにitunesの移行方法について:acda8f072eaabc06c5e2295032794f8b&#34;&gt;Macの移行アシスタントを使わずにiTunesの移行方法について&lt;/h1&gt;

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sideci on </title>
-    <link>/tags/sideci/</link>
-    <description>Recent content in Sideci on </description>
+    <title>Sideci on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</title>
+    <link>http://blog.tackeyy.org/tags/sideci/</link>
+    <description>Recent content in Sideci on F.C. BigDecimal | 読んだ本のメモやWebまわりのはなし</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
     <lastBuildDate>Sat, 14 May 2016 11:17:05 +0900</lastBuildDate>
-    <atom:link href="/tags/sideci/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.tackeyy.org/tags/sideci/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>SideCIの実行結果をSlackに通知してみる</title>
-      <link>/post/2016-05-14/mailto-slack-from-sideci/</link>
+      <link>http://blog.tackeyy.org/post/2016-05-14/mailto-slack-from-sideci/</link>
       <pubDate>Sat, 14 May 2016 11:17:05 +0900</pubDate>
       
-      <guid>/post/2016-05-14/mailto-slack-from-sideci/</guid>
+      <guid>http://blog.tackeyy.org/post/2016-05-14/mailto-slack-from-sideci/</guid>
       <description>
 
 &lt;h3 id=&#34;sideci:d4fd0ae8721e64088049829f66bc1e5e&#34;&gt;SideCI?&lt;/h3&gt;
